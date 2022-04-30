@@ -49,7 +49,7 @@ Register Number:212220230035
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_img=cv2.imread("cock.jpg")
+input_img=cv2.imread("husky1.jpg")
 input_img=cv2.cvtColor(input_img,cv2.COLOR_BGR2RGB)
 plt.axis('off')
 plt.imshow(input_img)
